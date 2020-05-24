@@ -28,6 +28,11 @@
             android:name="myArg"
             app:argType="string" />
     </fragment>
+    <fragment
+        android:id="@+id/contactFragment"
+        android:name="ch.petraaccess_for_all.testapp.ContactFragment"
+        android:label="fragment_contact"
+        tools:layout="@layout/fragment_contact" />
 
     />
 </navigation>
