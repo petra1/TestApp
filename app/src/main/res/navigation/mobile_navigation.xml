@@ -18,5 +18,5 @@
         android:label="Contact"
         tools:layout="@layout/fragment_contact" />
 
-    
+
 </navigation>
