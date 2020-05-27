@@ -17,6 +17,11 @@
         android:name="ch.petraaccess_for_all.testapp.ContactFragment"
         android:label="Contact"
         tools:layout="@layout/fragment_contact" />
+    <fragment
+        android:id="@+id/webViewFragment"
+        android:name="ch.petraaccess_for_all.testapp.WebViewFragment"
+        android:label="fragment_web_view"
+        tools:layout="@layout/fragment_web_view" />
 
 
 </navigation>
