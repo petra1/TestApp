@@ -11,8 +11,8 @@
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home">
 
-            </fragment>
-      <fragment
+    </fragment>
+    <fragment
         android:id="@+id/contactFragment"
         android:name="ch.petraaccess_for_all.testapp.ContactFragment"
         android:label="Contact"
@@ -20,8 +20,13 @@
     <fragment
         android:id="@+id/webViewFragment"
         android:name="ch.petraaccess_for_all.testapp.WebViewFragment"
-        android:label="fragment_web_view"
+        android:label="under construction"
         tools:layout="@layout/fragment_web_view" />
+    <fragment
+        android:id="@+id/relativlayoutFragment"
+        android:name="ch.petraaccess_for_all.testapp.RelativlayoutFragment"
+        android:label="Images"
+        tools:layout="@layout/fragment_relativlayout" />
 
 
 </navigation>

@@ -8,16 +8,21 @@
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_home_black_24dp"
             android:title="@string/menu_home" />
-
         <item
-            android:id="@+id/webViewFragment"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="WebView" />
+            android:id="@+id/relativlayoutFragment"
+            android:icon="@drawable/ic_gif_black_24dp"
+            android:title="Images" />
 
         <item
             android:id="@+id/contactFragment"
             android:icon="@drawable/ic_contacts_black_24dp"
             android:title="Contacts" />
+
+
+        <item
+            android:id="@+id/webViewFragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="under construction" />
 
 
     </group>
