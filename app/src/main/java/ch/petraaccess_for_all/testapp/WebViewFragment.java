@@ -8,6 +8,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
 
 
 /*
@@ -36,6 +39,8 @@ public class WebViewFragment extends Fragment {
             mParam1 = getArguments ().getString (ARG_PARAM1);
             mParam2 = getArguments ().getString (ARG_PARAM2);
         }
+
+
     }
 
     @Override
@@ -43,6 +48,42 @@ public class WebViewFragment extends Fragment {
                              Bundle savedInstanceState) {
 
 
-        return inflater.inflate (R.layout.fragment_web_view, container, false);
+        View v = inflater.inflate (R.layout.fragment_web_view, container, false);
+
+        Button button1 = (Button) v.findViewById (R.id.button1);
+        Button button2 = (Button) v.findViewById (R.id.button2);
+        final TextView textView2 = (TextView) v.findViewById (R.id.textView13);
+        final TextView textView5 = (TextView) v.findViewById (R.id.textView2);
+        final EditText editText1 = (EditText) v.findViewById (R.id.editText4);
+        final EditText editText2 = (EditText) v.findViewById (R.id.editText);
+
+        button1.setOnClickListener (
+                new Button.OnClickListener () {
+                    @Override
+                    public void onClick(View view) {
+                        textView2.setText (editText1.getText ());
+                    }
+
+                    public void onclick(View v) {
+
+                    }
+                }
+        );
+
+        button2.setOnClickListener (
+                new Button.OnClickListener () {
+                    @Override
+                    public void onClick(View view) {
+                        textView5.setText (editText2.getText ());
+                    }
+
+                    public void onclick(View v) {
+
+                    }
+                }
+        );
+
+
+        return v;
     }
 }
