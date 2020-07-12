@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TableFragment">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.petra.accessibilitydemonstration.MainActivity">
+
+        <LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginStart="280dp"
+                android:layout_marginTop="9dp"
+                android:accessibilityHeading="true"
+                android:text="Table"
+                android:textSize="28sp" />
+
+
+        </LinearLayout>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="114dp"
+                android:layout_column="1"
+                android:background="#FFE4B5"
+                android:padding="3dp"
+                android:text="@string/country"
+                android:textStyle="bold"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="15dp"/>
+
+
+            <TextView
+                android:layout_width="100dp"
+                android:background="#FFE4B5"
+                android:padding="3dp"
+                android:text="@string/capital"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:layout_width="131dp"
+                android:background="#FFE4B5"
+                android:padding="3dp"
+                android:text="@string/language"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dp"
+                android:text="@string/italy"
+                android:layout_marginStart="130dp"/>
+
+            <TextView
+                android:padding="3dp"
+                android:text="@string/rom" />
+
+            <TextView
+                android:padding="3dp"
+                android:text="@string/italian" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dp"
+                android:text="@string/switzerland"
+                android:layout_marginStart="130dp"/>
+
+            <TextView
+                android:padding="3dp"
+                android:text="@string/berne" />
+
+            <TextView
+                android:padding="3dp"
+                android:text="@string/german" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dp"
+                android:text="@string/england"
+                android:layout_marginStart="130dp"/>
+
+            <TextView
+                android:padding="3dp"
+                android:text="@string/london" />
+
+            <TextView
+                android:padding="3dp"
+                android:text="@string/english" />
+
+        </TableRow>
+
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="114dp"
+                android:layout_column="1"
+                android:background="#FFE4B5"
+                android:padding="3dp"
+                android:text="@string/country"
+                android:textStyle="bold"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="25dp"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:background="#FFE4B5"
+                android:padding="3dp"
+                android:text="@string/capital"
+                android:textStyle="bold"
+                android:layout_marginTop="25dp"/>
+
+            <TextView
+                android:layout_width="131dp"
+                android:background="#FFE4B5"
+                android:padding="3dp"
+                android:text="@string/language"
+                android:textStyle="bold"
+                android:layout_marginTop="25dp"/>
+
+        </TableRow>
+
+        <!-- To make a table accessible to TalkBack you have to use the attribute contentDescription for each cell of the table as shown below.-->
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:contentDescription="@string/country_switzerland"
+                android:padding="3dp"
+                android:text="@string/switzerland"
+                android:layout_marginStart="130dp"/>
+
+            <TextView
+                android:contentDescription="@string/capital_berne"
+                android:padding="3dp"
+                android:text="@string/berne" />
+
+            <TextView
+                android:contentDescription="@string/language_german"
+                android:padding="3dp"
+                android:text="@string/german" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:contentDescription="@string/country_italy"
+                android:padding="3dp"
+                android:text="@string/italy"
+                android:layout_marginStart="130dp"/>
+
+            <TextView
+                android:contentDescription="@string/capital_rom"
+                android:padding="3dp"
+                android:text="@string/rom" />
+
+
+            <TextView
+                android:contentDescription="@string/language_italian"
+                android:padding="3dp"
+                android:text="@string/italian" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:contentDescription="@string/country_england"
+                android:padding="3dp"
+                android:text="@string/england"
+                android:layout_marginStart="130dp"/>
+
+            <TextView
+                android:contentDescription="@string/capital_london"
+                android:padding="3dp"
+                android:text="@string/london" />
+
+            <TextView
+                android:contentDescription="@string/language_english"
+                android:padding="3dp"
+                android:text="@string/english" />
+
+        </TableRow>
+
+
+
+
+    </TableLayout>
+
+
+</FrameLayout>

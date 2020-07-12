@@ -12,11 +12,22 @@
             android:id="@+id/relativlayoutFragment"
             android:icon="@drawable/ic_gif_black_24dp"
             android:title="Images" />
+        <item
+            android:id="@+id/testFragment"
+            android:icon="@drawable/ic_headings_black_24dp"
+            android:title="Headings" />
+
+        <item
+            android:id="@+id/tableFragment"
+            android:icon="@drawable/ic_table_black_24dp"
+            android:title="Tables" />
+
 
         <item
             android:id="@+id/contactFragment"
             android:icon="@drawable/ic_contacts_black_24dp"
             android:title="Contacts" />
+
 
 
         <item

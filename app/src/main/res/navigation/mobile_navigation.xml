@@ -27,6 +27,16 @@
         android:name="ch.petraaccess_for_all.testapp.RelativlayoutFragment"
         android:label="Images"
         tools:layout="@layout/fragment_relativlayout" />
+    <fragment
+        android:id="@+id/testFragment"
+        android:name="ch.petraaccess_for_all.testapp.TestFragment"
+        android:label="fragment_test"
+        tools:layout="@layout/fragment_test" />
+    <fragment
+        android:id="@+id/tableFragment"
+        android:name="ch.petraaccess_for_all.testapp.TableFragment"
+        android:label="fragment_table"
+        tools:layout="@layout/fragment_table" />
 
 
 </navigation>
