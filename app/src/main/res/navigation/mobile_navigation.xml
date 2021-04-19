@@ -37,6 +37,11 @@
         android:name="ch.petraaccess_for_all.testapp.TableFragment"
         android:label="fragment_table"
         tools:layout="@layout/fragment_table" />
+    <fragment
+        android:id="@+id/tabOrderFragment"
+        android:name="ch.petraaccess_for_all.testapp.TabOrderFragment"
+        android:label="Tab Order"
+        tools:layout="@layout/fragment_tab_order" />
 
 
 </navigation>

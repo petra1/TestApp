@@ -27,8 +27,10 @@
             android:id="@+id/contactFragment"
             android:icon="@drawable/ic_contacts_black_24dp"
             android:title="Contacts" />
-
-
+        <item
+            android:id="@+id/tabOrderFragment"
+            android:icon="@drawable/ic_baseline_keyboard_tab_24"
+            android:title="Tab Order" />
 
         <item
             android:id="@+id/webViewFragment"

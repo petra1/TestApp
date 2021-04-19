@@ -33,4 +33,7 @@
     <string name="language_english">Language, English</string>
     <string name="solution_description">Now TalkBack reads the table headers correct</string>
 
+    <string name="help">get help</string>
+    <string name="Test">Test</string>
+
 </resources>
