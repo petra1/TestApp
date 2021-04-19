@@ -15,8 +15,8 @@
             android:id="@+id/textView00"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="116dp"
-            android:layout_marginTop="76dp"
+            android:layout_marginStart="290dp"
+            android:layout_marginTop="16dp"
             android:accessibilityHeading="true"
             android:text="Tab Order"
             android:textSize="30sp"
@@ -38,13 +38,11 @@
             android:id="@+id/label01"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="23dp"
-            android:layout_marginTop="190dp"
-            android:layout_marginEnd="17dp"
-            android:layout_marginBottom="162dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="136dp"
+            android:layout_marginEnd="120dp"
             android:labelFor="@+id/editText01"
             android:text="First Name"
-            app:layout_constraintBottom_toTopOf="@+id/label02"
             app:layout_constraintEnd_toStartOf="@+id/editText01"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -53,14 +51,12 @@
             android:id="@+id/editText01"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="17dp"
-            android:layout_marginTop="47dp"
-            android:layout_marginEnd="85dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="75dp"
             android:ems="10"
             android:hint="Enter your first name"
-            android:textColorHint="#000000"
             android:inputType="textPersonName"
-            app:layout_constraintEnd_toEndOf="parent"
+            android:textColorHint="#000000"
             app:layout_constraintStart_toEndOf="@+id/label01"
             app:layout_constraintTop_toBottomOf="@+id/textView00" />
 
@@ -68,24 +64,23 @@
             android:id="@+id/imageButton3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="260dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="111dp"
             android:src="@drawable/ic_baseline_help_outline_24"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/editText01"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
             android:id="@+id/button01"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="161dp"
-            android:layout_marginTop="52dp"
-            android:layout_marginEnd="162dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="107dp"
+            android:layout_marginEnd="66dp"
             android:text="Send"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editText01" />
+            app:layout_constraintStart_toEndOf="@+id/imageButton3"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textView02"
@@ -103,9 +98,9 @@
             android:id="@+id/label02"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="23dp"
-            android:layout_marginTop="204dp"
-            android:layout_marginEnd="17dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="88dp"
+            android:layout_marginEnd="120dp"
             android:labelFor="@id/editText02"
             android:text="Last NAME"
             app:layout_constraintEnd_toStartOf="@+id/editText02"
@@ -116,41 +111,37 @@
             android:id="@+id/editText02"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="17dp"
-            android:layout_marginTop="35dp"
-            android:layout_marginEnd="85dp"
-            android:layout_marginBottom="38dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="68dp"
+            android:layout_marginEnd="75dp"
             android:ems="10"
-            android:hint="Enter your last Name"
+            android:hint="Enter your last name"
             android:inputType="textPersonName"
             android:textColorHint="#000000"
-            app:layout_constraintBottom_toTopOf="@+id/button02"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton4"
             app:layout_constraintStart_toEndOf="@+id/label02"
-            app:layout_constraintTop_toBottomOf="@+id/textView02" />
+            app:layout_constraintTop_toBottomOf="@+id/editText01" />
 
         <ImageButton
             android:id="@+id/imageButton4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginBottom="76dp"
+            android:layout_marginTop="72dp"
+            android:layout_marginEnd="65dp"
             android:accessibilityTraversalAfter="@id/button02"
             android:src="@drawable/ic_baseline_help_outline_24"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintEnd_toStartOf="@+id/button02"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton3" />
 
         <Button
             android:id="@+id/button02"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="154dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="169dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="69dp"
             android:text="Send"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editText02" />
+            app:layout_constraintStart_toEndOf="@+id/imageButton4"
+            app:layout_constraintTop_toBottomOf="@+id/button01" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

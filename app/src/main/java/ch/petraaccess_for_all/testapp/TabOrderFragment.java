@@ -1,10 +1,8 @@
 package ch.petraaccess_for_all.testapp;
 
 import android.annotation.SuppressLint;
-import android.media.Image;
 import android.os.Bundle;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
@@ -47,23 +45,23 @@ public class TabOrderFragment extends Fragment {
 
         View v = inflater.inflate (R.layout.fragment_tab_order, container, false);
 
-        Button button1 = (Button) v.findViewById (R.id.button1);
-        Button button2 = (Button) v.findViewById (R.id.button2);
+        Button button01 = (Button) v.findViewById (R.id.button01);
+        Button button02 = (Button) v.findViewById (R.id.button02);
         ImageButton imageButton3 = (ImageButton) v.findViewById(R.id.imageButton3);
         imageButton3.setContentDescription(getString(R.string.help));
         ImageButton imageButton4 = (ImageButton) v.findViewById(R.id.imageButton4);
         imageButton4.setContentDescription(getString(R.string.help));
-        final TextView textView1 = (TextView) v.findViewById (R.id.textView1);
-        final TextView textView2 = (TextView) v.findViewById (R.id.textView2);
-        final EditText editText1 = (EditText) v.findViewById (R.id.editText1);
-        final EditText editText2 = (EditText) v.findViewById (R.id.editText2);
+        final TextView textView01 = (TextView) v.findViewById (R.id.textView01);
+        final TextView textView02 = (TextView) v.findViewById (R.id.textView02);
+        final EditText editText01 = (EditText) v.findViewById (R.id.editText01);
+        final EditText editText02 = (EditText) v.findViewById (R.id.editText02);
 
 
-        button1.setOnClickListener (
+        button01.setOnClickListener (
                 new Button.OnClickListener () {
                     @Override
                     public void onClick(View view) {
-                        textView1.setText (editText1.getText ());
+                        textView01.setText (editText01.getText ());
                     }
 
                     public void onclick(View v) {
@@ -72,11 +70,11 @@ public class TabOrderFragment extends Fragment {
                 }
         );
 
-        button2.setOnClickListener (
+        button02.setOnClickListener (
                 new Button.OnClickListener () {
                     @Override
                     public void onClick(View view) {
-                        textView2.setText (editText2.getText ());
+                        textView02.setText (editText02.getText ());
                     }
                     public void onclick(View v) {
 
