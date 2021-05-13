@@ -1,5 +1,6 @@
 package ch.petraaccess_for_all.testapp;
 
+import android.content.res.Configuration;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -61,7 +62,16 @@ public class TestFragment extends Fragment {
                              Bundle savedInstanceState) {
         View v = inflater.inflate (R.layout.fragment_contact, container, false);
         WebView webView = (WebView) v.findViewById (R.id.webView);
-        webView.loadUrl ("file:///android_asset/heading.html");
+        switch (getResources().getConfiguration().uiMode & Configuration.UI_MODE_NIGHT_MASK) {
+            case Configuration.UI_MODE_NIGHT_YES:
+                webView.loadUrl ("file:///android_asset/heading_dark-mode.html");
+                break;
+            case  Configuration.UI_MODE_NIGHT_NO:
+                webView.loadUrl ("file:///android_asset/heading.html");
+                break;
+
+        }
+
 
 
 

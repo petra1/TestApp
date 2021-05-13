@@ -35,5 +35,7 @@
 
     <string name="help">get help</string>
     <string name="Test">Test</string>
+    <string name="Welcome">Welcome to Accessibility</string>
+    <string name="welcome">Welcome to Accessibility Demo</string>
 
 </resources>

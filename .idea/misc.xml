@@ -5,7 +5,27 @@
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout-land/fragment_tab_order.xml" value="0.5" />
+        <entry key="app/src/main/res/layout-large-land/fragment_tab_order.xml" value="0.5" />
+        <entry key="app/src/main/res/layout-large/fragment_tab_order.xml" value="0.5" />
+        <entry key="app/src/main/res/layout-normal-land/fragment_tab_order.xml" value="0.5" />
+        <entry key="app/src/main/res/layout-normal/fragment_tab_order.xml" value="0.4420946626384693" />
+        <entry key="app/src/main/res/layout-small-land/fragment_tab_order.xml" value="0.12604166666666666" />
+        <entry key="app/src/main/res/layout-small/fragment_tab_order.xml" value="0.5" />
+        <entry key="app/src/main/res/layout-sw600dp/fragment_tab_order.xml" value="0.1953125" />
+        <entry key="app/src/main/res/layout-xlarge-land/fragment_tab_order.xml" value="0.5" />
+        <entry key="app/src/main/res/layout-xlarge/fragment_tab_order.xml" value="0.15125" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/fragment_tab_order.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/fragment_web_view.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.5" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

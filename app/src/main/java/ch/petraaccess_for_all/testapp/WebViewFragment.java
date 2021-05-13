@@ -74,12 +74,15 @@ public class WebViewFragment extends Fragment {
                     @Override
                     public void onClick(View view) {
                         textView5.setText (editText2.getText ());
+                        textView5.setContentDescription("your last name ist " + textView5.getText() );
                     }
 
                     public void onclick(View v) {
 
                     }
+
                 }
+
         );
 
 
